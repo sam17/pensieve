@@ -1,0 +1,14 @@
+baseURL = "https://soumyadeep.in/"
+languageCode = "en-us"
+title = "the dementor's pensieve"
+theme="pickles"
+
+[params]
+	paginate = 10
+	twitter = "dementorSam"
+	github = "sam17"
+#	author = "Soumyadeep Mukherjee"
+	authorwebsite = "soumyadeep.in"
+	bio = ""
+	subtitle = "Written with love on gin and tonic"
+	
