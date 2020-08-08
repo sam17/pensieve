@@ -2,8 +2,9 @@
 
 USER=dementor
 HOST=azkaban.in
-DIR=/var/www/write.soumyadeep.in
+DIR=/home/dementor/pensieve/
 
 hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
+scp soumyadeep.in ${USER}@${HOST}:${DIR}/
 
 exit 0
