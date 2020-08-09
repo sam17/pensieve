@@ -1,7 +1,8 @@
 ---
 title: "First Commit"
-date: 2020-08-03T00:31:21+05:30
+date: 2020-07-27T00:31:21+05:30
 draft: false
+tags: ["meta", "personal"]
 ---
 
 To be blogger since '94. 

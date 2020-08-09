@@ -2,3 +2,11 @@
 .p-title__link {
 	font-style: italic
 }
+
+.c-tag {
+	color: #337ab7
+}
+
+.p-menu__listitem a {
+	visibility: hidden
+}
