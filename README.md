@@ -6,5 +6,5 @@
 - Add option to subscribe
 - Add travis CI to deploy on push
 - Design Changes
-  - Make title Italics
+  - ~~Make title Italics~~
   - Add contents feature
