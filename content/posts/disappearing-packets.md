@@ -2,7 +2,7 @@
 title: "Case of the Disappearing Packets"
 date: 2020-08-03T18:55:04+05:30
 draft: false
-tags: ["rca", "network"]
+tags: ["rca", "networks"]
 ---
 
 
