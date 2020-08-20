@@ -1,5 +1,5 @@
 ---
-title: "Note Taking"
+title: "The Real Pensieve"
 date: 2020-08-15T16:35:15+05:30
 draft: false
 tags: ["productivity", "personal"]
@@ -11,7 +11,7 @@ _Obsessive Compulsive Note Taker_
 
 {{< zoom-img src="/notes.png" >}}
 
-Thats what I have evolved to over the years. I started (inspired from a friend) in 2012 who used to take notes for quizzing matrial and had a compilation built since 2006 which fascinated the fuck out of me. Then, as he aced quizzes from this,  I saw the value it added. So, this FOMO drove me to start with notes for projects - how-tos, to-dos, progress and references. Immediate value this provided was quick context switching since as a student, we are juggling many things - opening the note for a project immediatle got me in the zone to execute.
+Thats what I have evolved to over the years. I started (inspired from a friend) in 2012 who used to take notes for quizzing material and had a compilation built since 2006 which fascinated the fuck out of me. Then, as he aced quizzes from this,  I saw the value it added. So, this FOMO drove me to start with notes for projects - how-tos, to-dos, progress and references. Immediate value this provided was quick context switching since as a student, we are juggling many things - opening the note for a project immediately got me in the zone to execute.
 
 As this habit evolved, I have notes for everything - books I read, cool articles and blogs, news items, personal thoughts, my day-to-day logs and even my relationship thoughts and stories. As I have grew from managing multiple things in university to multiple problems in life and work, my note-taking also has improved. Now, I have a multi-tiered notes i.e. scribbling and documenting.
 
@@ -32,7 +32,7 @@ It takes seconds to note something from meetings or discussions or thoughts.  Th
 - Daily what I do - Personal and Work
 - Problem Statements [1] -  Side Projects and Work 
 - Personal Thoughts - Life, Universe and Everything
-- Reading - Books, Blogs, Articles, News, Courses 
+- Reading/Watching - Books, Blogs, Articles, News, Courses, Movies, TV Shows
 
 #### How do I organize them?  
 First level of abstraction for me is the context - personal or work - even for work its divided into the place I am working at.  
