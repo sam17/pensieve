@@ -8,5 +8,7 @@
 - Design Changes
   - ~~Make title Italics~~
   - Add contents feature
-  - Improve font
-  - Remove all color and convert to bnw
+  - ~~Improve font~~
+  - ~~Remove all color and convert to bnw~~
+- Content
+  - ~~Fix numbers in note taking~~

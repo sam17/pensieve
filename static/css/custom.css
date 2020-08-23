@@ -11,3 +11,40 @@
 	visibility: hidden
 }
 
+body {
+	font-family: "JetBrains Mono", monospace;
+	font-size: 1.4rem;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+.p-article__body {
+	text-align: justify;
+}
+
+.c-article__title a {
+	font-family: "JetBrains Mono", monospace;
+}
+
+.p-subtitle {
+	font-family: "JetBrains Mono", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "JetBrains Mono", monospace;
+}
+
+li {
+	font-size: 1.4rem;
+}
+
+a {
+	color: #555
+}
+
+.c-tag {
+	color: #555;
+	font-weight: bold;
+}

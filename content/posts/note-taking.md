@@ -82,6 +82,10 @@ But accepting sadness, disappointment and with a heavy heart, I decided to go ah
 
 Sigh.
 
+#### Edit: 24-08-2020
+I wondered if anyone paid attention to the numbers so my first version of calculations (Gave equal weight to all features) is when I wrote this article. But, eventually, I changed the calculation to add weights but did not change the `63%` number. Since, now each article has varying weights the highest score is not `63%` but `77.5%`.
+
+
 
 #### Appendix
 

@@ -37,3 +37,14 @@ Open to questions, criticism, coffee and wine.
 
 
 
+today.
+
+
+
+
+TO ADD:
+- Distance from the real problem or mission statement
+
+
+
+

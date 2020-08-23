@@ -39,8 +39,3 @@ P.S. The above is my opinion and understanding today and is open to change. They
 
 
 
-
-
-
-
-
