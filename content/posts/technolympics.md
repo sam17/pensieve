@@ -15,7 +15,7 @@ And some of us are even _judges_ !
 
 #### FOMO as Motivation
 
-2010, I along with a friend were on a programming competition spree roaming across NCR skipping school (legally this time). In one such event, we were pissed off with us losing and blaming it on the questions when we decided we need to join the cool kids who make questions. But why just force others to solve programming questions, why not force others to come to an entire suite of events and be our guinea pigs! 
+2010, I along with a friend (Read: [__Saurabh Misra__](https://www.linkedin.com/in/saurabh-misra/))  were on a programming competition spree roaming across NCR skipping school (legally this time). In one such event, we were pissed off with us losing and blaming it on the questions when we decided we need to join the cool kids who make questions. But why just force others to solve programming questions, why not force others to come to an entire suite of events and be our guinea pigs! 
 
 And that followed by selling the idea of a tech fest to teachers is how we came up to decide to do the first ever techfest of Cambridge School Noida (I spent 14 years there!) and we called it `Technolympics`.  
 I am till date impressed with that name and how bunch of 16 year olds came up with it. Googling it still has the fest as first result!
@@ -48,7 +48,8 @@ P.S. I wish I could give more details of how the fest organisation was done but 
 
 
 
-
+##### Edits
+31/8 - Attention seeking that Saurabh is, I had to add his name which I had skipped due to my `no-names-without-consent-policy`.
 
 
 
