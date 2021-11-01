@@ -8,6 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: srt32/hugo-action@v0.0.3
       - name: Build the site using hugo and deploy the site using rsync
       - run: ./deploy.sh
