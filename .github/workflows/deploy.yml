@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: srt32/hugo-action@v0.0.3
       - name: Build the site using hugo and deploy the site using rsync
-      - run: ./deploy.sh
+        run: ./deploy.sh
