@@ -1,7 +1,7 @@
 ---
 title: "Pushing the Naive Dreams"
 date: 2021-09-14T02:49:34+05:30
-draft: true
+draft: false
 ---
 
 December 2016, 4 kids after a hectic month of job hunting aka placements, chilling with contraband realized they have 6 months of sponsored experimentation in front of them.
