@@ -3,6 +3,7 @@
 
 ### TODO
 - Add analytics using [shynet](https://github.com/milesmcc/shynet)
+    - https://www.goatcounter.com/
 - Add option to subscribe
 - Add travis CI to deploy on push
 - Design Changes
