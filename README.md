@@ -2,10 +2,10 @@
 
 
 ### TODO
-- Add analytics using [shynet](https://github.com/milesmcc/shynet)
+- ~~Add analytics using [shynet](https://github.com/milesmcc/shynet)~~
     - https://www.goatcounter.com/
 - Add option to subscribe
-- Add travis CI to deploy on push
+- ~~Add travis CI to deploy on push~~
 - Design Changes
   - ~~Make title Italics~~
   - Add contents feature
