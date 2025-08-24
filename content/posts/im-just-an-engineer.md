@@ -1,7 +1,7 @@
 ---
 title: "I'm Just an Engineer"
 date: 2025-08-24T21:30:22+05:30
-draft: true
+draft: false
 ---
 
 
