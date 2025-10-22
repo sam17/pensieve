@@ -1,8 +1,10 @@
 ---
-title: "Scrolls"
+title: ""
 date: 2024-01-01
 hideDate: true
 ---
+
+<div class="talks-page">
 
 Talks, Lectures and Workshops that I have given post 2022.
 
@@ -43,3 +45,5 @@ This talk was given at a [E2E Networks + Accel](https://lu.ma/n1kld8my) event wh
 This talk was given at the first hasgeek robotics meetup. It talks about my journey as I talk about all my attempts at robotics startup in India in various roles and what I learnt from them.
 
 [View Slides →](/talks/Why%20Hardware%20is%20Hard.pdf) | [Watch Video →](https://www.youtube.com/watch?v=pwHqrNnmoxE)
+
+</div>

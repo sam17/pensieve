@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "the dementor's pensieve"
 theme="pickles"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 	paginate = 10
 	twitter = "dementorSam"
@@ -17,14 +22,14 @@ theme="pickles"
 	custom_css = ["/css/custom.css"]
 
 [[menu.main]]
-    name = "Scrolls"
-    url = "/talks"
-    weight = 3
+    name = "Memories"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
+    name = "Scrolls"
+    url = "/talks"
+    weight = 2
 
 
 [related]

@@ -10,17 +10,19 @@
 /* Navigation menu styling */
 .p-menu {
 	margin: 20px 0 30px 0;
-	text-align: center;
-	border-bottom: 2px solid #e0e0e0;
 	padding-bottom: 0;
+	display: flex !important;
+	justify-content: center !important;
+	max-width: 100% !important;
+	width: 100% !important;
 }
 
 .p-menu__lists {
 	list-style: none;
-	padding: 0;
+	padding: 0 0 8px 0;
 	margin: 0;
-	display: inline-flex;
-	gap: 8px;
+	display: flex;
+	gap: 40px;
 }
 
 .p-menu__listitem {
@@ -28,37 +30,29 @@
 }
 
 .p-menu__listitem a {
-	color: #555;
+	color: #333 !important;
 	text-decoration: none;
 	font-family: "JetBrains Mono", monospace;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1rem;
-	padding: 12px 24px;
-	border: 2px solid #e0e0e0;
-	border-bottom: 2px solid #e0e0e0;
-	border-radius: 8px 8px 0 0;
-	background: #f5f5f5;
+	padding: 0 0 10px 0;
 	display: inline-block;
 	transition: all 0.2s ease;
+	border-bottom: 3px solid transparent;
 	position: relative;
-	bottom: -2px;
+	bottom: -1px;
 }
 
 .p-menu__listitem a:hover {
-	color: #222;
-	background: #fff;
-	border-color: #e0e0e0;
-	border-bottom-color: transparent;
-	transform: translateY(-2px);
+	color: #000 !important;
+	border-bottom-color: #333;
 }
 
 .p-menu__listitem a:active,
 .p-menu__listitem a.active {
-	color: #000;
-	background: #fff;
-	border-color: #e0e0e0;
-	border-bottom-color: #fff;
-	font-weight: 600;
+	color: #333 !important;
+	border-bottom-color: #000;
+	font-weight: 500;
 }
 
 
@@ -73,6 +67,15 @@ p {
 
 .p-article__body {
 	text-align: justify;
+}
+
+/* Talks page specific styling */
+.p-article__body .talks-page p {
+	color: #999 !important;
+}
+
+.talks-page p {
+	color: #999 !important;
 }
 
 .c-article__title a {
