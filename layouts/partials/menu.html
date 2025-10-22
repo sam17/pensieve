@@ -17,10 +17,21 @@
         {{ $menuURL := .URL | relLangURL }}
         {{ $currentURL := $currentPage.RelPermalink }}
         {{ $isActive := false }}
-        {{ if eq $menuURL "/" }}
-          {{ $isActive = eq $currentURL "/" }}
+
+        {{/* Normalize URLs by trimming trailing slashes for comparison */}}
+        {{ $normalizedMenuURL := $menuURL }}
+        {{ $normalizedCurrentURL := $currentURL }}
+        {{ if ne $menuURL "/" }}
+          {{ $normalizedMenuURL = strings.TrimSuffix "/" $menuURL }}
+        {{ end }}
+        {{ if ne $currentURL "/" }}
+          {{ $normalizedCurrentURL = strings.TrimSuffix "/" $currentURL }}
+        {{ end }}
+
+        {{ if eq $normalizedMenuURL "/" }}
+          {{ $isActive = eq $normalizedCurrentURL "/" }}
         {{ else }}
-          {{ $isActive = or (eq $currentURL $menuURL) (hasPrefix $currentURL $menuURL) }}
+          {{ $isActive = or (eq $normalizedCurrentURL $normalizedMenuURL) (hasPrefix $normalizedCurrentURL (printf "%s/" $normalizedMenuURL)) }}
         {{ end }}
         <a href="{{ .URL }}" {{ if $isActive }}class="active"{{ end }}>
           {{- .Name -}}
