@@ -1,10 +1,10 @@
 
 .p-title__link {
-	font-style: italic
+	font-style: italic;
 }
 
 .c-tag {
-	color: #337ab7
+	color: #337ab7;
 }
 
 /* Navigation menu styling */
@@ -102,7 +102,7 @@ li {
 }
 
 a {
-	color: #555
+	color: #555;
 }
 
 .c-tag {
