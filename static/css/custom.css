@@ -78,6 +78,13 @@ p {
 	color: #999 !important;
 }
 
+.talk-date {
+	color: #999 !important;
+	font-size: 1.2rem;
+	margin-top: -0.5rem;
+	margin-bottom: 1rem;
+}
+
 .c-article__title a {
 	font-family: "JetBrains Mono", monospace;
 }
