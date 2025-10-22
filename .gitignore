@@ -47,3 +47,5 @@ Thumbs.db
 #Hugo#
 #########
 public/
+.claude/
+.hugo_build.lock

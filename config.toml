@@ -17,6 +17,11 @@ theme="pickles"
 	custom_css = ["/css/custom.css"]
 
 [[menu.main]]
+    name = "Scrolls"
+    url = "/talks"
+    weight = 3
+
+[[menu.main]]
     name = "Tags"
     url = "/tags"
     weight = 4

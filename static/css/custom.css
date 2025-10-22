@@ -7,9 +7,60 @@
 	color: #337ab7
 }
 
-.p-menu__listitem a {
-	visibility: hidden
+/* Navigation menu styling */
+.p-menu {
+	margin: 20px 0 30px 0;
+	text-align: center;
+	border-bottom: 2px solid #e0e0e0;
+	padding-bottom: 0;
 }
+
+.p-menu__lists {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-flex;
+	gap: 8px;
+}
+
+.p-menu__listitem {
+	display: inline-block;
+}
+
+.p-menu__listitem a {
+	color: #555;
+	text-decoration: none;
+	font-family: "JetBrains Mono", monospace;
+	font-weight: 500;
+	font-size: 1rem;
+	padding: 12px 24px;
+	border: 2px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
+	border-radius: 8px 8px 0 0;
+	background: #f5f5f5;
+	display: inline-block;
+	transition: all 0.2s ease;
+	position: relative;
+	bottom: -2px;
+}
+
+.p-menu__listitem a:hover {
+	color: #222;
+	background: #fff;
+	border-color: #e0e0e0;
+	border-bottom-color: transparent;
+	transform: translateY(-2px);
+}
+
+.p-menu__listitem a:active,
+.p-menu__listitem a.active {
+	color: #000;
+	background: #fff;
+	border-color: #e0e0e0;
+	border-bottom-color: #fff;
+	font-weight: 600;
+}
+
 
 body {
 	font-family: "JetBrains Mono", monospace;
@@ -47,4 +98,49 @@ a {
 .c-tag {
 	color: #555;
 	font-weight: bold;
+}
+
+/* Talks page slide and video links */
+.p-article__body a[href$=".pdf"],
+.p-article__body a[href*="youtube.com"],
+.p-article__body a[href*="youtu.be"] {
+	color: #777;
+	text-decoration: none;
+	border-bottom: 1px dotted #999;
+	font-size: 0.9rem;
+	transition: all 0.2s ease;
+}
+
+.p-article__body a[href$=".pdf"]:hover,
+.p-article__body a[href*="youtube.com"]:hover,
+.p-article__body a[href*="youtu.be"]:hover {
+	color: #555;
+	border-bottom-color: #555;
+}
+
+/* Page title styling */
+.c-article__title {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.c-article__title a {
+	font-weight: 500;
+}
+
+/* Hide date on talks/scrolls page */
+.p-article__meta {
+	display: none;
+}
+
+/* Smaller talk titles */
+.p-article__body h2 {
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+/* Space intro text closer to title, further from first talk */
+.p-article__body > p:first-of-type {
+	margin-top: -1rem;
+	margin-bottom: 3rem;
 }

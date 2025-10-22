@@ -18,7 +18,7 @@ Then you dump everything into your laptop — folders full of clips named `final
 So you go back. You reshoot a few lines. You replace a track. You re-edit. You export again. Then again. By the fifth cut, you’ve spent two weekends and twenty open tabs later, and the story that once felt alive now feels like a checklist of edits.
 What started as a burst of imagination has turned into managing files, formats, and feedback loops across half a dozen worlds — writing, filming, editing, audio, colour, export. **Every jump between them chips away at the original emotion that made you start.**
 
-Moving between so many abstraction levels takes you so far away from the core story that sometimes you even forget what is the real story. And this conceptual distance between the outcome and the thought is what I always try to bridge first. My brain intrinsically turns to process optimisation in everything I do to reduce this gap! And that is the thesis of Frameo!
+Moving between so many abstraction levels takes you so far away from the core story that sometimes you even forget what is the real story. And this conceptual distance between the outcome and the thought is what I always try to bridge first. My brain intrinsically turns to process optimisation in everything I do to reduce this gap! And that is the thesis of [Frameo](https://frameo.ai) — a product I'm building at [Dashverse](https://dashverse.ai)!
 
 **Reducing the gap between thought and the output in storytelling.** 
 Today I am chasing the video world because I think thats tractable to me based on resources I have today. Ideally, I want to be able to build any digital media - interactive media/games/AR/VR etc.
