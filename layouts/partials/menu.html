@@ -14,24 +14,25 @@
       {{ else }}
       <li class="p-menu__listitem">
         {{ $currentPage := $ }}
-        {{ $menuURL := .URL | relLangURL }}
-        {{ $currentURL := $currentPage.RelPermalink }}
+        {{ $menuURL := strings.TrimSuffix "/" (.URL | relLangURL) }}
+        {{ $currentURL := strings.TrimSuffix "/" $currentPage.RelPermalink }}
         {{ $isActive := false }}
 
-        {{/* Normalize URLs by trimming trailing slashes for comparison */}}
-        {{ $normalizedMenuURL := $menuURL }}
-        {{ $normalizedCurrentURL := $currentURL }}
-        {{ if ne $menuURL "/" }}
-          {{ $normalizedMenuURL = strings.TrimSuffix "/" $menuURL }}
+        {{/* Handle root path specially */}}
+        {{ if eq $menuURL "" }}
+          {{ $menuURL = "/" }}
         {{ end }}
-        {{ if ne $currentURL "/" }}
-          {{ $normalizedCurrentURL = strings.TrimSuffix "/" $currentURL }}
+        {{ if eq $currentURL "" }}
+          {{ $currentURL = "/" }}
         {{ end }}
 
-        {{ if eq $normalizedMenuURL "/" }}
-          {{ $isActive = eq $normalizedCurrentURL "/" }}
+        {{/* Check if this menu item is active */}}
+        {{ if eq $menuURL "/" }}
+          {{/* For home, only active if current is exactly / */}}
+          {{ $isActive = eq $currentURL "/" }}
         {{ else }}
-          {{ $isActive = or (eq $normalizedCurrentURL $normalizedMenuURL) (hasPrefix $normalizedCurrentURL (printf "%s/" $normalizedMenuURL)) }}
+          {{/* For other pages, check exact match or prefix match */}}
+          {{ $isActive = or (eq $currentURL $menuURL) (hasPrefix $currentURL (printf "%s/" $menuURL)) }}
         {{ end }}
         <a href="{{ .URL }}" {{ if $isActive }}class="active"{{ end }}>
           {{- .Name -}}
