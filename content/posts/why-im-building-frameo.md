@@ -1,7 +1,7 @@
 ---
 title: "Why I'm Building Frameo"
 date: 2025-10-22T21:11:33+05:30
-draft: false
+draft: true
 tags: []
 ---
 
