@@ -39,9 +39,7 @@
   <!-- Hugo Version Number -->
   {{ hugo.Generator -}}
 
-  {{ if not hugo.IsServer }}
-  {{ template "_internal/google_analytics.html" . }}
-  {{ end }}
+  {{/* Google Analytics - removed conditional to fix Hugo 0.92.2 compatibility */}}
 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
   <!-- Custom css files as define in config.toml -->
