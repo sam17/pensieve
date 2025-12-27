@@ -5,7 +5,7 @@ hideDate: true
 type: "talks"
 ---
 
-Talks and Workshops that I have given post 2022.
+**Talks and Workshops that I have given post 2022.**
 
 ## Where Generative AI Ends and Human Imagination Begins
 <p class="talk-date">Given on Sep 19, 2025</p>

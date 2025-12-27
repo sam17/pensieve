@@ -71,26 +71,16 @@ Some people who operate this way move into leadership. Some stay deeply technica
 
 The role changes. The operating system doesn't.  
 
-### What this way of operating promotes
+**What this way of operating promotes**
+- *Speed - but the honest kind* - Tight feedback loops. Short distance between decision and result.  
+- *Accountability* - You live with the consequences of what you build. Iteration is owned, not delegated.  
 
-**Speed - but the honest kind** 
-Tight feedback loops. Short distance between decision and result.  
-
-**Accountability**
-You live with the consequences of what you build. Iteration is owned, not delegated.  
-
-### What it doesn't tolerate 
-
-**Shipping without watching impact**
-Activity without outcomes is just noise.  
-
-**Hiding behind specialization**
-"I only do X" increases distance when it matters most.  
-
-**Pedigree over judgment**
-Titles, degrees, and tools don't matter if you can't reason about the system you're in.  
-
-
+**What it doesn't tolerate**
+- *Shipping without watching impact* - Activity without outcomes is just noise.  
+- *Hiding behind specialization* - "I only do X" increases distance when it matters most.  
+- *Pedigree over judgment* - Titles, degrees, and tools don't matter if you can't reason about the system you're in.  
+   
+--- 
 
 Product engineering is not something you wait to be hired into.  
 It's a choice you make every day — to collapse distance between thinking and doing, to take responsibility for outcomes, and to sit with the discomfort that comes with real feedback.  
