@@ -7,6 +7,24 @@ type: "talks"
 
 **Talks and Workshops that I have given post 2022.**
 
+## Outcome-First Thinking
+<p class="talk-date">Given on May 20, 2026</p>
+
+This talk was given at Dashverse and lays out a framework for shifting from task-completion to driving meaningful results. It contrasts "task-first" thinking — completing work and hoping it adds up — with "outcome-first" thinking, where you define the desired state of reality first and then work backwards to the work needed. It covers three unlocking questions, real-world examples, and practical exercises for building the muscle.
+
+[View Slides →](https://soumyadeep.in/talks/outcome-first)
+
+---
+
+## How India Can Own the Global Micro Drama Economy with AI
+<p class="talk-date">Given on May 15, 2026</p>
+
+This talk was given at the VAM Summit in Mumbai where I explore short-form drama as an emerging global entertainment format and how India is positioned to lead it through AI-powered content creation. I contrast the different approaches — the US relying on traditional actors, China industrializing the format with user-generated content, and Dashverse enabling creative directors to produce dramas using AI instead of actors and physical sets.
+
+[View Slides →](https://soumyadeep.in/talks/vam-2026)
+
+---
+
 ## Where Generative AI Ends and Human Imagination Begins
 <p class="talk-date">Given on Sep 19, 2025</p>
 
